@@ -5,6 +5,8 @@
 }
 body {
  color: #ffffff;
+ font-family: 'Public Sans', sans-serif;
+ font-size: 16px;
 }
 main {
   height: 100vh;
@@ -20,6 +22,30 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+.container__label {
+  font-size: 1.8em;
+  padding-bottom: 20px;
+}
 .container__email {
-  max-width: 500px;
+  width: 60%;
+  height: 40px;
+  border: 2px solid rgb(68, 68, 68);
+  background-color: rgb(78, 78, 78);
+  color: rgb(204, 204, 204);
+}
+
+.container__button {
+  margin-top: 20px;
+  width: 60%;
+  height: 40px;
+}
+
+.container__azione {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: .7em;
+  font-style: italic;
+  text-decoration: underline;
+
 }
