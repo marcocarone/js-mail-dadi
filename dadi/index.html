@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Public+Sans:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Esercitazione JS - gioco dadi</title>
+</head>
+
+<body>
+  <section class="container">
+    <div class="container__left">
+      <label for="giocatore1">Nome giocatore 1</label>
+      <input id="giocatore1" type="text" size="20" name="nome1" value="">
+      <img id="dado1" src="img/00.png" alt="">
+    </div>
+    <div class="container__right">
+      <label for="giocatore2">Nome giocatore 2</label>
+      <input id="giocatore2" type="text" size="20" name="nome1" value="">
+      <img id="dado2" src="img/00.png" alt="">
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="risultato">
+      <button id="bottone-lancio" class="bottone" type="button" name="lancio">Lancio</button>
+      <div id="msg" class="msg"></div>
+    </div>
+  </section>
+
+
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>
