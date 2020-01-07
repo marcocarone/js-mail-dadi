@@ -1,4 +1,4 @@
-var Dadi = ["img/00.png", "img/01.png", "img/02.png", "img/03.png", "img/04.png", "img/05.png", "img/06.png", ]
+var Dadi = ["img/00.png", "img/01.png", "img/02.png", "img/03.png", "img/04.png", "img/05.png", "img/06.png" ]
 
 var Gioca = document.getElementById('bottone-lancio');
 Gioca.addEventListener('click',
