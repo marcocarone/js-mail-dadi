@@ -6,8 +6,6 @@ document.getElementById('accedi').addEventListener("click",
   function() {
     var emailUtente = document.getElementById("email-utente").value;
     var trovato = false;
-    // Controlla se la mail inserita nel form è uguale a una di quelle nell'Array
-    // Se è uguale aggiorna la variabile "trovato"
     for (var i = 0; i < listaUtentiRegistrati.length; i++) {
       if (emailUtente == listaUtentiRegistrati[i]) {
         trovato = true;
